@@ -17,6 +17,12 @@
                     <i class="fa-solid fa-arrows-rotate"></i>
                     Làm mới                
                 </button>
+                <router-link :to="{name: 'contact.add'}">
+                    <button class="btn btn-sm btn-success">
+                        <i class="fa-solid fa-plus"></i>
+                        Thêm liên hệ
+                    </button>
+                </router-link>
                 <button
                     class="btn btn-sm btn-danger"
                     @click="removeAllContacts"
